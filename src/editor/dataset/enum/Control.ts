@@ -2,7 +2,8 @@ export enum ControlType {
   TEXT = 'text',
   SELECT = 'select',
   CHECKBOX = 'checkbox',
-  RADIO = 'radio'
+  RADIO = 'radio',
+  TABLE = 'table',
 }
 
 export enum ControlComponent {

@@ -60,6 +60,8 @@ export default class Editor {
   public register: Register
   public destroy: () => void
   public use: UsePlugin
+  draw: Draw
+  contextMenu: ContextMenu
 
   constructor(
     container: HTMLDivElement,
@@ -109,10 +111,12 @@ export default class Editor {
       this.eventBus,
       this.override
     )
+    this.draw = draw
     // 命令
     this.command = new Command(new CommandAdapt(draw))
     // 菜单
     const contextMenu = new ContextMenu(draw, this.command)
+    this.contextMenu = contextMenu
     // 快捷键
     const shortcut = new Shortcut(draw, this.command)
     // 注册
