@@ -99,6 +99,12 @@ export class ContextMenu {
         renderList.push(menu)
       } else {
         if (menu.when?.(this.context!)) {
+          if (this.context?.isInTable && this.context?.tableElement?.value) {
+            const list:any = ['tableCancelMergeCell', 'tableMergeCell', 'tableInsertTopRow','tableInsertBottomRow','tableDeleteRow']
+            if (list.includes(menu.key)) {
+              continue
+            }
+          }
           renderList.push(menu)
         }
       }
