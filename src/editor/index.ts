@@ -21,7 +21,8 @@ import {
   EditorMode,
   PageMode,
   PaperDirection,
-  WordBreak
+  WordBreak,
+  RenderMode
 } from './dataset/enum/Editor'
 import { EDITOR_COMPONENT } from './dataset/constant/Editor'
 import { IWatermark } from './interface/Watermark'
@@ -154,6 +155,7 @@ export {
   ControlType,
   EditorComponent,
   PageMode,
+  RenderMode,
   ImageDisplay,
   Command,
   KeyMap,

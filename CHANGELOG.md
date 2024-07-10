@@ -1,3 +1,108 @@
+## [0.9.85](https://github.com/Hufe921/canvas-editor/compare/v0.9.84...v0.9.85) (2024-07-07)
+
+
+### Bug Fixes
+
+* custom override method removes support for asynchronous #672 ([0e705d6](https://github.com/Hufe921/canvas-editor/commit/0e705d6a0bdb0922efd5c47edd8ca9eba9964199)), closes [#672](https://github.com/Hufe921/canvas-editor/issues/672)
+* set control highlight and re render #678 ([24df9d3](https://github.com/Hufe921/canvas-editor/commit/24df9d3b006a8daf795ada677bfd0159e3ccc3f5)), closes [#678](https://github.com/Hufe921/canvas-editor/issues/678)
+
+
+### Chores
+
+* update build.yml ([a40441d](https://github.com/Hufe921/canvas-editor/commit/a40441dc3994a41ae29c341a542be6e0e7dada2e))
+
+
+### Features
+
+* add render mode #667 ([affd191](https://github.com/Hufe921/canvas-editor/commit/affd1911552a73a2b63a13f2c423121637830b99)), closes [#667](https://github.com/Hufe921/canvas-editor/issues/667)
+* add title deletable property #670 ([b3d8413](https://github.com/Hufe921/canvas-editor/commit/b3d8413b35050eac626af1c57beaaf1b8d692a0e)), closes [#670](https://github.com/Hufe921/canvas-editor/issues/670)
+* insert element boundary optimization #669 ([de44bd6](https://github.com/Hufe921/canvas-editor/commit/de44bd68ab01e5ffa8d6a8dc5d566b0cdb8d08e6)), closes [#669](https://github.com/Hufe921/canvas-editor/issues/669)
+
+
+### Tests
+
+* update text test case ([c24da73](https://github.com/Hufe921/canvas-editor/commit/c24da737b15200775a7d4a5edf4e2224f6ec5429))
+
+
+
+## [0.9.84](https://github.com/Hufe921/canvas-editor/compare/v0.9.83...v0.9.84) (2024-06-30)
+
+
+### Bug Fixes
+
+* merge table cell boundary error #661 ([146ac75](https://github.com/Hufe921/canvas-editor/commit/146ac75a002338f13c96900a2849062c29018606)), closes [#661](https://github.com/Hufe921/canvas-editor/issues/661)
+* set default style for control using executeSetControlProperties #658 ([7b5079c](https://github.com/Hufe921/canvas-editor/commit/7b5079c9b638730f7ea609239b3cb91b915d4650)), closes [#658](https://github.com/Hufe921/canvas-editor/issues/658)
+
+
+### Features
+
+* optimization of table operations in form mode #662 ([b740637](https://github.com/Hufe921/canvas-editor/commit/b74063741f413d5bf6f90c748761f64141405ca7)), closes [#662](https://github.com/Hufe921/canvas-editor/issues/662)
+* override method with default interception behavior #663 ([9a4b4f9](https://github.com/Hufe921/canvas-editor/commit/9a4b4f9a4a70a344740212507e250d9bdea5dd32)), closes [#663](https://github.com/Hufe921/canvas-editor/issues/663)
+
+
+
+## [0.9.83](https://github.com/Hufe921/canvas-editor/compare/v0.9.82...v0.9.83) (2024-06-21)
+
+
+### Bug Fixes
+
+* executeSetControlProperties api invalid in table #653 ([fdcf639](https://github.com/Hufe921/canvas-editor/commit/fdcf6397e1ce62ef1ed18a526a0642c3f120df3b)), closes [#653](https://github.com/Hufe921/canvas-editor/issues/653)
+
+
+### Features
+
+* add clear format attributes ([e21533a](https://github.com/Hufe921/canvas-editor/commit/e21533a3d1cfeecde562aaa6c52ee306e5063a01))
+* add conceptId attribute to table td #654 ([959a062](https://github.com/Hufe921/canvas-editor/commit/959a062f830042b78af498e2d6cbc4e5f82fa3d4)), closes [#654](https://github.com/Hufe921/canvas-editor/issues/654)
+* add mouse event listener #603 ([a2978bd](https://github.com/Hufe921/canvas-editor/commit/a2978bd1f507e9417b995bbb0b7ff756dbe5d2c4)), closes [#603](https://github.com/Hufe921/canvas-editor/issues/603)
+* copy table structure and data #516 ([76c20a6](https://github.com/Hufe921/canvas-editor/commit/76c20a6b44914396ae7dd69a7c97db1b179937c2)), closes [#516](https://github.com/Hufe921/canvas-editor/issues/516)
+
+
+
+## [0.9.82](https://github.com/Hufe921/canvas-editor/compare/v0.9.81...v0.9.82) (2024-06-14)
+
+
+### Bug Fixes
+
+* table cell merge boundary error #645 ([f7da332](https://github.com/Hufe921/canvas-editor/commit/f7da33235419aadb2aea024d3cba4444d6d719fd)), closes [#645](https://github.com/Hufe921/canvas-editor/issues/645)
+
+
+### Features
+
+* add executeUpdateElementById api #648 ([5c896bf](https://github.com/Hufe921/canvas-editor/commit/5c896bf95814c6ef2956221763e7df560b3fe98a)), closes [#648](https://github.com/Hufe921/canvas-editor/issues/648)
+* add override internal drop function api #643 ([ec7e076](https://github.com/Hufe921/canvas-editor/commit/ec7e0760c113711fdafc13374ea521605308f867)), closes [#643](https://github.com/Hufe921/canvas-editor/issues/643)
+* move control position by dragging #456 ([cdb0788](https://github.com/Hufe921/canvas-editor/commit/cdb0788dfcecadb70e680eb40a31551e0e096401)), closes [#456](https://github.com/Hufe921/canvas-editor/issues/456)
+
+
+
+## [0.9.81](https://github.com/Hufe921/canvas-editor/compare/v0.9.80...v0.9.81) (2024-06-07)
+
+
+### Bug Fixes
+
+* disable zone tip in continuous page mode #638 ([bf322df](https://github.com/Hufe921/canvas-editor/commit/bf322dfea334ee242a452c44fdb613a1937d963b)), closes [#638](https://github.com/Hufe921/canvas-editor/issues/638)
+* some shortcut keys with shift are invalid #629 ([aca9d34](https://github.com/Hufe921/canvas-editor/commit/aca9d34a46004f2da207f7127f69430e4e59ab25)), closes [#629](https://github.com/Hufe921/canvas-editor/issues/629)
+
+
+### Documentation
+
+* update start.md ([55bbe22](https://github.com/Hufe921/canvas-editor/commit/55bbe22578320319d9ab38b26ebbe8687b21f1c1))
+
+
+### Features
+
+* add executeLocationControl api #592 ([53701fc](https://github.com/Hufe921/canvas-editor/commit/53701fc46c347595722801e8bca40647cda74bcb)), closes [#592](https://github.com/Hufe921/canvas-editor/issues/592)
+* add maximum page number option #617 ([afce688](https://github.com/Hufe921/canvas-editor/commit/afce6882493c198595a0575640dd313c8cbdb14f)), closes [#617](https://github.com/Hufe921/canvas-editor/issues/617)
+* add options to the getValue api ([65acd58](https://github.com/Hufe921/canvas-editor/commit/65acd580d6813bd15b8ee079b16ae8d5f9e77767))
+* add selection info to rangeContext ([2df03ed](https://github.com/Hufe921/canvas-editor/commit/2df03ed3867cf8edf5fb656c017986af6725780c))
+* set title style through executeSetHtml api #626 ([ac795b0](https://github.com/Hufe921/canvas-editor/commit/ac795b0bc45f99e92a5292a676414e1d7347cb7e)), closes [#626](https://github.com/Hufe921/canvas-editor/issues/626)
+
+
+### Tests
+
+* update watermark test case ([c75482a](https://github.com/Hufe921/canvas-editor/commit/c75482a4f6f18da010963500e790780a63c061c4))
+
+
+
 ## [0.9.80](https://github.com/Hufe921/canvas-editor/compare/v0.9.79...v0.9.80) (2024-05-31)
 
 

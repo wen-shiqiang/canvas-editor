@@ -181,3 +181,8 @@ export interface IElementFillRect {
   width: number
   height: number
 }
+
+export interface IUpdateElementByIdOption {
+  id: string
+  properties: Omit<IElement, 'id'>
+}

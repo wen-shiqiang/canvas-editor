@@ -61,6 +61,7 @@ interface IElement {
     tdList: {
       colspan: number;
       rowspan: number;
+      conceptId?: string;
       verticalAlign?: VerticalAlign;
       backgroundColor?: string;
       borderTypes?: TdBorder[];
@@ -153,7 +154,10 @@ interface IElement {
   };
   // title
   level?: TitleLevel;
-  title?: ITitle;
+  title?: {
+    conceptId?: string;
+    deletable?: boolean;
+  };
   // list
   listType?: ListType;
   listStyle?: ListStyle;
